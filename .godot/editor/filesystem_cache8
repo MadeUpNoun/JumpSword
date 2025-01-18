@@ -1,6 +1,10 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1737177884
-::res://Assets/::1737177884
+::res://::1737199754
+::res://Aspite files/::1737199754
+::res://Assets/::1737199754
+Dungeon Tiles.png::CompressedTexture2D::3318451036406287136::1737199731::1737199754::1::::<><>::
 icon.svg::CompressedTexture2D::75186273287766737::1737177323::1737177884::1::::<><>::
-::res://Scenes/::1737177867
+Player_Sword.png::CompressedTexture2D::8995986197003186426::1737197137::1737197203::1::::<><>::
+::res://Scenes/::1737198408
+player.tscn::PackedScene::713584286087527539::1737198408::0::1::::<><>::uid://d1fytws4mh3wg::::res://Assets/Player_Sword.png
 ::res://Scripts/::1737177874
