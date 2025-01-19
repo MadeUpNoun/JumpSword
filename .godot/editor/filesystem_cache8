@@ -1,11 +1,14 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1737244169
-::res://Aspite files/::1737244169
-::res://Assets/::1737244169
+::res://::1737289465
+character_body_2d.gd::GDScript::-1::1737285412::0::1::::<>CharacterBody2D<>::
+::res://Aspite files/::1737289465
+::res://Assets/::1737289465
+Arrow.png::CompressedTexture2D::1296741384724062430::1737289461::1737289465::1::::<><>::
 Dungeon Tiles.png::CompressedTexture2D::2196135723286800943::1737244161::1737244171::1::::<><>::
 icon.svg::CompressedTexture2D::75186273287766737::1737177323::1737177884::1::::<><>::
 Player_Sword.png::CompressedTexture2D::8995986197003186426::1737197137::1737197203::1::::<><>::
-::res://Scenes/::1737199794
-player.tscn::PackedScene::713584286087527539::1737198408::0::1::::<><>::uid://d1fytws4mh3wg::::res://Assets/Player_Sword.png
-test_world.tscn::PackedScene::7441641465278830338::1737199794::0::1::::<><>::
-::res://Scripts/::1737177874
+::res://Scenes/::1737289241
+player.gd::GDScript::-1::1737288724::0::1::::<>RigidBody2D<>::
+player.tscn::PackedScene::713584286087527539::1737289241::0::1::::<><>::uid://d1fytws4mh3wg::::res://Assets/Player_Sword.png<>res://Scenes/player.gd
+test_world.tscn::PackedScene::7441641465278830338::1737289241::0::1::::<><>::uid://6j3bf5dyqcnn::::res://Assets/Dungeon Tiles.png<>uid://kfwvnbxw7kch::::res://Scenes/player.tscn
+::res://Scripts/::1737285810
