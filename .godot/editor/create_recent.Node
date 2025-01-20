@@ -1,9 +1,10 @@
-CharacterBody2D
-RigidBody2D
 Node2D
-TileMapLayer
-ParallaxLayer
-Camera2D
 Sprite2D
+CharacterBody2D
+TileMapLayer
+Parallax2D
+ParallaxLayer
+RigidBody2D
+Camera2D
 CollisionShape2D
 AnimatedSprite2D
