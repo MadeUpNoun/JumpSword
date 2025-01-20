@@ -1,3 +1,4 @@
 res://Scenes/test_world.tscn
-res://Scenes/player.tscn
+res://Assets/test_world.tres
 res://Scenes/player.gd
+res://Scenes/player.tscn
