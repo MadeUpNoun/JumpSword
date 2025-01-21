@@ -408,6 +408,7 @@ animations = [{
 [node name="Player" type="RigidBody2D"]
 gravity_scale = 0.1
 center_of_mass_mode = 1
+can_sleep = false
 script = ExtResource("1_mi2yd")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
@@ -425,10 +426,8 @@ polygon = PackedVector2Array(-0.5, -37.5, -1.5, -36.5, -2.5, -35.5, -3.5, -33.5,
 
 [node name="Arrow_turn_table" type="Node2D" parent="."]
 
-[node name="Arrows" type="AnimatedSprite2D" parent="Arrow_turn_table"]
-position = Vector2(16, -1.77636e-14)
+[node name="Arrow" type="AnimatedSprite2D" parent="Arrow_turn_table"]
+position = Vector2(17, 1.77636e-14)
 rotation = 1.5708
 scale = Vector2(0.3, 0.3)
 sprite_frames = SubResource("SpriteFrames_cfpjo")
-frame = 53
-frame_progress = 1.0

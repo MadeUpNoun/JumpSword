@@ -1,7 +1,5 @@
-res://Assets/test_world.tres
-res://menu.tscn
-res://menu.gd
 res://Scenes/test_world.tscn
+res://Assets/test_world.tres
 res://Scenes/player.tscn
 res://Scenes/menu.tscn
-res://Scenes/menu.gd
+res://Scenes/player.gd

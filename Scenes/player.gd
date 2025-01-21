@@ -1,8 +1,13 @@
 extends RigidBody2D
 
 @onready var Arrow_turn_table = $Arrow_turn_table
+@onready var Arrow = $Arrow_turn_table/Arrow
 var turn_direction = 0.0
-# not entirely sure but this func is specifcally whats used to move rigid bodys with forces
+
+
+
+# not entirely sure but this func is specifcally whats used to 
+#move rigid bodys with forces
 func _integrate_forces(state: PhysicsDirectBodyState2D) -> void:
 	if Input.is_action_just_released("Leap"):
 		pass
@@ -17,15 +22,30 @@ func _physics_process(delta: float) -> void:
 	else:
 		if turn_direction > 0:
 			turn_direction -= 0.1
-		else:
+		elif turn_direction < 0 :
 			turn_direction += 0.1
-			print(turn_direction)
 	angular_velocity += turn_direction
-	
-	if Input.is_action_pressed("Leap"):
-		Arrow_turn_table.show()
-	else:
-		Arrow_turn_table.hide()
 	
 	Arrow_turn_table.look_at(get_global_mouse_position())
 	
+	if Input.is_action_pressed("Leap"):
+		Arrow_turn_table.show()
+		leap_charge()
+		print(charge)
+	elif Input.is_action_just_released("Leap"):
+		Arrow_turn_table.hide()
+		apply_central_force(Vector2(0.0,-1.0).rotated(
+			Arrow_turn_table.global_rotation + (PI/2))
+		 * 50  * charge)
+		charge = 0.0
+	print(Arrow_turn_table.global_rotation)
+
+	
+var Max_charge = 100.0
+var charge = 0.0
+#logic behind Leap mechanic
+func leap_charge():
+	
+	charge = clamp(charge + 1,0,100)
+	
+	Arrow.set_frame(charge * (57/Max_charge))

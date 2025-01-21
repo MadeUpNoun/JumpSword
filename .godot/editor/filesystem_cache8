@@ -1,22 +1,22 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1737382213
-character_body_2d.gd::GDScript::-1::1737379818::0::1::::<>CharacterBody2D<>::
-::res://Aspite files/::1737379818
-::res://Assets/::1737382207
-Arrow-Sheet.png::CompressedTexture2D::6985527501747493610::1737379818::1737379859::1::::<><>::
-Dungeon Tiles.png::CompressedTexture2D::2196135723286800943::1737379818::1737379859::1::::<><>::
-icon.svg::CompressedTexture2D::75186273287766737::1737205808::1737379859::1::::<><>::
-Player_Sword.png::CompressedTexture2D::8995986197003186426::1737205808::1737379859::1::::<><>::
-test_world.tres::TileSet::5971352251266574515::1737380241::0::1::::<><>::uid://6j3bf5dyqcnn::::res://Assets/Dungeon Tiles.png
-::res://Assets/Images/::1737382213
-MainMenuPlaceHolder.jpg::CompressedTexture2D::8818286676442957535::1737381084::1737382213::1::::<><>::
-::res://Assets/Other/::1737382213
-Blox2.ttf::FontFile::3786623856016239113::1737381877::1737382210::1::::<><>::
-Dedicool.ttf::FontFile::7716939261380516652::1737381986::1737382207::1::::<><>::
-::res://Scenes/::1737382213
-menu.gd::GDScript::-1::1737382118::0::1::::<>Control<>::
-menu.tscn::PackedScene::5705596970289414303::1737382213::0::1::::<><>::res://Scenes/menu.gd<>uid://dxvv5msciekct::::res://Assets/Images/MainMenuPlaceHolder.jpg<>uid://dh7e4kw73frlk::::res://Assets/Other/Dedicool.ttf
-player.gd::GDScript::-1::1737379818::0::1::::<>RigidBody2D<>::
-player.tscn::PackedScene::713584286087527539::1737382167::0::1::::<><>::uid://d1fytws4mh3wg::::res://Assets/Player_Sword.png<>res://Scenes/player.gd<>uid://c6r3u8wskgute::::res://Assets/Arrow-Sheet.png
-test_world.tscn::PackedScene::7441641465278830338::1737382167::0::1::::<><>::uid://crctkf2504imd::::res://Assets/test_world.tres<>uid://kfwvnbxw7kch::::res://Scenes/player.tscn
-::res://Scripts/::1737380234
+::res://::1737409382
+character_body_2d.gd::GDScript::-1::1737285412::0::1::::<>CharacterBody2D<>::
+::res://Aspite files/::1737371135
+::res://Assets/::1737409351
+Arrow-Sheet.png::CompressedTexture2D::6985527501747493610::1737371131::1737409383::1::::<><>::
+Dungeon Tiles.png::CompressedTexture2D::2196135723286800943::1737244161::1737409383::1::::<><>::
+icon.svg::CompressedTexture2D::75186273287766737::1737177323::1737409383::1::::<><>::
+Player_Sword.png::CompressedTexture2D::8995986197003186426::1737197137::1737409383::1::::<><>::
+test_world.tres::TileSet::5971352251266574515::1737368386::0::1::::<><>::uid://6j3bf5dyqcnn::::res://Assets/Dungeon Tiles.png
+::res://Assets/Images/::1737409351
+MainMenuPlaceHolder.jpg::CompressedTexture2D::8818286676442957535::1737409351::1737409383::1::::<><>::
+::res://Assets/Other/::1737409351
+Blox2.ttf::FontFile::3786623856016239113::1737409351::1737409383::1::::<><>::
+Dedicool.ttf::FontFile::7716939261380516652::1737409351::1737409383::1::::<><>::
+::res://Scenes/::1737409351
+menu.gd::GDScript::-1::1737409351::0::1::::<>Control<>::
+menu.tscn::PackedScene::5705596970289414303::1737409351::0::1::::<><>::res://Scenes/menu.gd<>uid://dxvv5msciekct::::res://Assets/Images/MainMenuPlaceHolder.jpg<>uid://dh7e4kw73frlk::::res://Assets/Other/Dedicool.ttf
+player.gd::GDScript::-1::1737371297::0::1::::<>RigidBody2D<>::
+player.tscn::PackedScene::713584286087527539::1737371593::0::1::::<><>::uid://d1fytws4mh3wg::::res://Assets/Player_Sword.png<>res://Scenes/player.gd<>uid://c6r3u8wskgute::::res://Assets/Arrow-Sheet.png
+test_world.tscn::PackedScene::7441641465278830338::1737371309::0::1::::<><>::uid://crctkf2504imd::::res://Assets/test_world.tres<>uid://kfwvnbxw7kch::::res://Scenes/player.tscn
+::res://Scripts/::1737285810
