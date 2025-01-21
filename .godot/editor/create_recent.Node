@@ -1,3 +1,5 @@
+TileMapLayer
+Timer
 Label
 Panel
 Button
@@ -8,8 +10,5 @@ AnimatedSprite2D
 Node2D
 Sprite2D
 CharacterBody2D
-TileMapLayer
 Parallax2D
 ParallaxLayer
-RigidBody2D
-Camera2D

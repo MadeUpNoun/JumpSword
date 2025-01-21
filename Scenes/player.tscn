@@ -431,3 +431,8 @@ position = Vector2(17, 1.77636e-14)
 rotation = 1.5708
 scale = Vector2(0.3, 0.3)
 sprite_frames = SubResource("SpriteFrames_cfpjo")
+
+[node name="Leap_cooldown" type="Timer" parent="."]
+wait_time = 0.5
+
+[connection signal="timeout" from="Leap_cooldown" to="." method="_on_leap_cooldown_timeout"]
