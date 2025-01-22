@@ -409,10 +409,12 @@ animations = [{
 gravity_scale = 0.1
 center_of_mass_mode = 1
 can_sleep = false
+contact_monitor = true
+max_contacts_reported = 2
 script = ExtResource("1_mi2yd")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(0, -5.75)
+position = Vector2(0, -5.7)
 scale = Vector2(0.3, 0.3)
 sprite_frames = SubResource("SpriteFrames_id6eh")
 
@@ -420,14 +422,14 @@ sprite_frames = SubResource("SpriteFrames_id6eh")
 zoom = Vector2(7, 7)
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
-position = Vector2(0, -5.75)
+position = Vector2(0, -5.7)
 scale = Vector2(0.3, 0.3)
 polygon = PackedVector2Array(-0.5, -37.5, -1.5, -36.5, -2.5, -35.5, -3.5, -33.5, -4.5, -31.5, -5.5, -28.5, -5.5, 15.5, -8.5, 14.5, -13.5, 13.5, -17.5, 13.5, -18.5, 14.5, -18.5, 17.5, -17.5, 18.5, -16.5, 19.5, -14.5, 20.5, -9.5, 21.5, -6.5, 22.5, -3.5, 23.5, -2.5, 23.5, -2.5, 32.5, -3.5, 32.5, -3.5, 35.5, -2.5, 36.5, -1.5, 37.5, 1.5, 37.5, 2.5, 36.5, 3.5, 35.5, 3.5, 32.5, 2.5, 32.5, 2.5, 23.5, 3.5, 23.5, 6.5, 22.5, 9.5, 21.5, 14.5, 20.5, 16.5, 19.5, 17.5, 18.5, 18.5, 17.5, 18.5, 14.5, 17.5, 13.5, 13.5, 13.5, 8.5, 14.5, 5.5, 15.5, 5.5, -28.5, 4.5, -31.5, 3.5, -33.5, 2.5, -35.5, 1.5, -36.5, 0.5, -37.5)
 
 [node name="Arrow_turn_table" type="Node2D" parent="."]
 
 [node name="Arrow" type="AnimatedSprite2D" parent="Arrow_turn_table"]
-position = Vector2(17, 1.77636e-14)
+position = Vector2(19, -1.45697e-11)
 rotation = 1.5708
 scale = Vector2(0.3, 0.3)
 sprite_frames = SubResource("SpriteFrames_cfpjo")
@@ -435,4 +437,15 @@ sprite_frames = SubResource("SpriteFrames_cfpjo")
 [node name="Leap_cooldown" type="Timer" parent="."]
 wait_time = 0.5
 
+[node name="Area2D" type="Area2D" parent="."]
+collision_layer = 0
+collision_mask = 2
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Area2D"]
+position = Vector2(-3.38813e-21, -7)
+scale = Vector2(0.410473, 0.363854)
+polygon = PackedVector2Array(-0.5, -37.5, -1.5, -36.5, -2.5, -35.5, -3.5, -33.5, -4.5, -31.5, -5.5, -28.5, -5.5, 15.5, -8.5, 14.5, -13.5, 13.5, -17.5, 13.5, -18.5, 14.5, -18.5, 17.5, -17.5, 18.5, -16.5, 19.5, -14.5, 20.5, -9.5, 21.5, -6.5, 22.5, -4.87243, 27.4835, -4.87243, 32.9802, -3.5, 35.5, -2.5, 36.5, -1.5, 37.5, 1.5, 37.5, 2.5, 36.5, 3.5, 35.5, 4.87243, 32.9802, 4.87243, 27.4835, 7.30864, 21.9868, 9.5, 21.5, 14.5, 20.5, 16.5, 19.5, 17.5, 18.5, 18.5, 17.5, 18.5, 14.5, 17.5, 13.5, 13.5, 13.5, 8.5, 14.5, 5.5, 15.5, 5.5, -28.5, 4.5, -31.5, 3.5, -33.5, 2.5, -35.5, 1.5, -36.5, 0.5, -37.5)
+
 [connection signal="timeout" from="Leap_cooldown" to="." method="_on_leap_cooldown_timeout"]
+[connection signal="body_shape_entered" from="Area2D" to="." method="_on_area_2d_body_shape_entered"]
+[connection signal="body_shape_exited" from="Area2D" to="." method="_on_area_2d_body_shape_exited"]
