@@ -23,6 +23,8 @@ var on_floor = false
 
 #phys func that runs each frame
 func _physics_process(delta: float) -> void:
+	on_floor = $Area2D.has_overlapping_bodies()
+
 	#controls left and right turning
 	if Input.is_action_pressed("Move_Left"):
 		turn_direction = clamp(turn_direction - 0.01,-0.5,0.5)
@@ -34,6 +36,8 @@ func _physics_process(delta: float) -> void:
 		elif turn_direction < 0 :
 			turn_direction += 0.1
 	angular_velocity += turn_direction
+	
+	
 	
 	Arrow_turn_table.look_at(get_global_mouse_position())
 	if leap_cooldown == false:
@@ -68,15 +72,3 @@ func leap_charge():
 
 func _on_leap_cooldown_timeout() -> void:
 	leap_cooldown = false
-
-
-
-
-func _on_area_2d_body_shape_entered(body_rid: RID, body: Node2D, body_shape_index: int, local_shape_index: int) -> void:
-	on_floor = true
-	print("entered")
-
-
-func _on_area_2d_body_shape_exited(body_rid: RID, body: Node2D, body_shape_index: int, local_shape_index: int) -> void:
-	on_floor = false
-	print("exited")
