@@ -10,14 +10,7 @@ var on_floor = false
 #move rigid bodys with forces
 #func _integrate_forces(state: PhysicsDirectBodyState2D) -> void:
 #
-	#var i := 0
-	#while i < state.get_contact_count():
-		#var normal := state.get_contact_local_normal(i)
-		#if normal.dot(Vector2.UP) != null:
-			#on_floor = normal.dot(Vector2.UP) >  0.99
-		#else:
-			#on_floor = false
-		#i += 1
+
 
 
 
