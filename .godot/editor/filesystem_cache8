@@ -1,22 +1,38 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1737382213
-character_body_2d.gd::GDScript::-1::1737379818::0::1::::<>CharacterBody2D<>::
+::res://::1737720061
 ::res://Aspite files/::1737379818
-::res://Assets/::1737382207
+::res://Assets/::1737710417
 Arrow-Sheet.png::CompressedTexture2D::6985527501747493610::1737379818::1737379859::1::::<><>::
 Dungeon Tiles.png::CompressedTexture2D::2196135723286800943::1737379818::1737379859::1::::<><>::
 icon.svg::CompressedTexture2D::75186273287766737::1737205808::1737379859::1::::<><>::
 Player_Sword.png::CompressedTexture2D::8995986197003186426::1737205808::1737379859::1::::<><>::
-test_world.tres::TileSet::5971352251266574515::1737380241::0::1::::<><>::uid://6j3bf5dyqcnn::::res://Assets/Dungeon Tiles.png
-::res://Assets/Images/::1737382213
+test_world.tres::TileSet::5971352251266574515::1737710417::0::1::::<><>::uid://6j3bf5dyqcnn::::res://Assets/Dungeon Tiles.png
+::res://Assets/Images/::1737435017
 MainMenuPlaceHolder.jpg::CompressedTexture2D::8818286676442957535::1737381084::1737382213::1::::<><>::
+Skeleton enemy.png::CompressedTexture2D::7728129240570543707::1737435007::1737435017::1::::<><>::
 ::res://Assets/Other/::1737382213
 Blox2.ttf::FontFile::3786623856016239113::1737381877::1737382210::1::::<><>::
 Dedicool.ttf::FontFile::7716939261380516652::1737381986::1737382207::1::::<><>::
-::res://Scenes/::1737382213
+::res://Scenes/::1737718128
+character_body_2d.gd::GDScript::-1::1737379818::0::1::::<>CharacterBody2D<>::
 menu.gd::GDScript::-1::1737382118::0::1::::<>Control<>::
-menu.tscn::PackedScene::5705596970289414303::1737382213::0::1::::<><>::res://Scenes/menu.gd<>uid://dxvv5msciekct::::res://Assets/Images/MainMenuPlaceHolder.jpg<>uid://dh7e4kw73frlk::::res://Assets/Other/Dedicool.ttf
-player.gd::GDScript::-1::1737379818::0::1::::<>RigidBody2D<>::
-player.tscn::PackedScene::713584286087527539::1737382167::0::1::::<><>::uid://d1fytws4mh3wg::::res://Assets/Player_Sword.png<>res://Scenes/player.gd<>uid://c6r3u8wskgute::::res://Assets/Arrow-Sheet.png
-test_world.tscn::PackedScene::7441641465278830338::1737382167::0::1::::<><>::uid://crctkf2504imd::::res://Assets/test_world.tres<>uid://kfwvnbxw7kch::::res://Scenes/player.tscn
-::res://Scripts/::1737380234
+menu.tscn::PackedScene::5705596970289414303::1737718128::0::1::::<><>::res://Scenes/menu.gd<>uid://dxvv5msciekct::::res://Assets/Images/MainMenuPlaceHolder.jpg<>uid://dh7e4kw73frlk::::res://Assets/Other/Dedicool.ttf
+player.gd::GDScript::-1::1737550667::0::1::::Player<>RigidBody2D<>::
+player.tscn::PackedScene::713584286087527539::1737718128::0::1::::<><>::uid://d1fytws4mh3wg::::res://Assets/Player_Sword.png<>res://Scenes/player.gd<>uid://c6r3u8wskgute::::res://Assets/Arrow-Sheet.png
+skeleton_enemy.gd::GDScript::-1::1737546306::0::1::::SkeletonEnemy<>CharacterBody2D<>::
+test_world.tscn::PackedScene::7441641465278830338::1737718128::0::1::::<><>::uid://crctkf2504imd::::res://Assets/test_world.tres<>uid://kfwvnbxw7kch::::res://Scenes/player.tscn<>uid://c8ks63w2qv6f5::::res://Scripts/skeleton_enemy.tscn
+::res://Scripts/::1737718143
+Animation.gd::GDScript::-1::1737717118::0::1::::<>CharacterBody2D<>::
+Chase.gd::GDScript::-1::1737716877::0::1::::<>EnemyState<>::
+Enemy.gd::GDScript::-1::1737717144::0::1::::Enemy<>CharacterBody2D<>::
+Health.gd::GDScript::-1::1737712175::0::1::::Health<>Node<>::
+HitBox.gd::GDScript::-1::1737712642::0::1::::Hitbox<>Area2D<>::
+skeleton_enemy.tscn::PackedScene::7110866756351217100::1737718143::0::1::::<><>::res://Scripts/Enemy.gd<>res://Scripts/HitBox.gd<>uid://didtfom6oyinb::::res://Assets/Images/Skeleton enemy.png<>res://Scripts/States/state_machine.gd<>res://Scripts/States/EnemyWander.gd<>res://Scripts/Health.gd<>res://Scripts/States/EnemyIdle.gd
+::res://Scripts/Classes/::1737550513
+Attack.gd::GDScript::-1::1737550513::0::1::::Attack<>RefCounted<>::
+::res://Scripts/States/::1737717280
+EnemyIdle.gd::GDScript::-1::1737716903::0::1::::EnemyIdle<>EnemyState<>::
+EnemyState.gd::GDScript::-1::1737713194::0::1::::EnemyState<>Node<>::
+EnemyWander.gd::GDScript::-1::1737717280::0::1::::<>EnemyState<>::
+State.gd::GDScript::-1::1737541728::0::1::::State<>Node<>::
+state_machine.gd::GDScript::-1::1737710848::0::1::::<>Node<>::
