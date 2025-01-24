@@ -1,1 +1,7 @@
 res://Scripts/player.gd
+res://Scenes/skeleton.tscn
+res://Scenes/skeleton.gd
+res://Scenes/test_world.tscn
+res://Scenes/player.tscn
+res://Scenes/menu.tscn
+res://Scripts/skeleton.gd

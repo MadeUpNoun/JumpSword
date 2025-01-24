@@ -1,21 +1,25 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1737585303
+::res://::1737694301
 character_body_2d.gd::GDScript::-1::1737285412::0::1::::<>CharacterBody2D<>::
-::res://Aspite files/::1737471188
-::res://Assets/::1737471222
+::res://Aspite files/::1737694301
+::res://Assets/::1737694301
 Arrow-Sheet.png::CompressedTexture2D::6985527501747493610::1737371131::1737409383::1::::<><>::
 Dungeon Tiles.png::CompressedTexture2D::2999875692343966950::1737471181::1737471188::1::::<><>::
+E.png::CompressedTexture2D::6641958271985550716::1737694297::1737694301::1::::<><>::
 icon.svg::CompressedTexture2D::75186273287766737::1737177323::1737409383::1::::<><>::
 Player_Sword.png::CompressedTexture2D::8995986197003186426::1737197137::1737409383::1::::<><>::
+skeleton_Sheet.png::CompressedTexture2D::8037643000130898138::1737693095::1737693101::1::::<><>::
 ::res://Assets/Images/::1737409383
 MainMenuPlaceHolder.jpg::CompressedTexture2D::8818286676442957535::1737409351::1737409383::1::::<><>::
 ::res://Assets/Other/::1737409383
 Blox2.ttf::FontFile::3786623856016239113::1737409351::1737409383::1::::<><>::
 Dedicool.ttf::FontFile::7716939261380516652::1737409351::1737409383::1::::<><>::
-::res://Scenes/::1737558468
-menu.tscn::PackedScene::5705596970289414303::1737558468::0::1::::<><>::res://Scripts/menu.gd<>uid://dxvv5msciekct::::res://Assets/Images/MainMenuPlaceHolder.jpg<>uid://dh7e4kw73frlk::::res://Assets/Other/Dedicool.ttf
-player.tscn::PackedScene::713584286087527539::1737558468::0::1::::<><>::uid://d1fytws4mh3wg::::res://Assets/Player_Sword.png<>res://Scripts/player.gd<>uid://c6r3u8wskgute::::res://Assets/Arrow-Sheet.png
-test_world.tscn::PackedScene::7441641465278830338::1737558468::0::1::::<><>::uid://bi0frquvijpra::::res://Assets/Dungeon Tiles.png<>uid://kfwvnbxw7kch::::res://Scenes/player.tscn
-::res://Scripts/::1737558527
+::res://Scenes/::1737693938
+menu.tscn::PackedScene::5705596970289414303::1737693938::0::1::::<><>::res://Scripts/menu.gd<>uid://dxvv5msciekct::::res://Assets/Images/MainMenuPlaceHolder.jpg<>uid://dh7e4kw73frlk::::res://Assets/Other/Dedicool.ttf
+player.tscn::PackedScene::713584286087527539::1737693938::0::1::::<><>::uid://d1fytws4mh3wg::::res://Assets/Player_Sword.png<>res://Scripts/player.gd<>uid://c6r3u8wskgute::::res://Assets/Arrow-Sheet.png
+skeleton.tscn::PackedScene::306027724532928487::1737693938::0::1::::<><>::res://Scripts/skeleton.gd<>uid://dmrq2nvajat3g::::res://Assets/skeleton_Sheet.png
+test_world.tscn::PackedScene::7441641465278830338::1737693938::0::1::::<><>::uid://bi0frquvijpra::::res://Assets/Dungeon Tiles.png<>uid://kfwvnbxw7kch::::res://Scenes/player.tscn<>uid://emih5dcfdx6f::::res://Scenes/skeleton.tscn
+::res://Scripts/::1737693842
 menu.gd::GDScript::-1::1737409351::0::1::::<>Control<>::
-player.gd::GDScript::-1::1737558527::0::1::::<>RigidBody2D<>::
+player.gd::GDScript::-1::1737692567::0::1::::<>RigidBody2D<>::
+skeleton.gd::GDScript::-1::1737693842::0::1::::<>CharacterBody2D<>::
