@@ -1,3 +1,4 @@
+TileMapLayer
 Node
 AnimationPlayer
 CollisionShape2D
@@ -11,4 +12,3 @@ Panel
 Button
 VBoxContainer
 MarginContainer
-Control
