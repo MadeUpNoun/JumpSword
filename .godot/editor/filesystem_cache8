@@ -1,5 +1,6 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1737779778
+::res://::1737851250
+NPCBlocker.tres::TileSet::6012640688802452244::1737782108::0::1::::<><>::uid://bcoko225jl74::::res://Assets/icon.svg
 test_world.tres::TileSet::1756186353818024615::1737779729::0::1::::<><>::uid://bi0frquvijpra::::res://Assets/Dungeon Tiles.png
 ::res://Aspite files/::1737694301
 ::res://Assets/::1737779158
@@ -15,15 +16,14 @@ Skeleton enemy.png::CompressedTexture2D::7728129240570543707::1737767491::173777
 ::res://Assets/Other/::1737779158
 Blox2.ttf::FontFile::3786623856016239113::1737409351::1737779158::1::::<><>::
 Dedicool.ttf::FontFile::7716939261380516652::1737409351::1737779158::1::::<><>::
-::res://Scenes/::1737782071
+::res://Scenes/::1737782118
 menu.tscn::PackedScene::5705596970289414303::1737782071::0::1::::<><>::res://Scripts/menu.gd<>uid://dxvv5msciekct::::res://Assets/Images/MainMenuPlaceHolder.jpg<>uid://dh7e4kw73frlk::::res://Assets/Other/Dedicool.ttf
 player.tscn::PackedScene::713584286087527539::1737782070::0::1::::<><>::uid://d1fytws4mh3wg::::res://Assets/Player_Sword.png<>res://Scripts/player.gd<>uid://c6r3u8wskgute::::res://Assets/Arrow-Sheet.png
-NPCBlocker.tres::TileSet::6012640688802452244::1737782108::0::1::::<><>::uid://bcoko225jl74::::res://Assets/icon.svg
 skeleton.tscn::PackedScene::306027724532928487::1737782071::0::1::::<><>::res://Scripts/skeleton.gd<>uid://dmrq2nvajat3g::::res://Assets/skeleton_Sheet.png<>uid://c1voc2ggmt5si::::res://Assets/E.png
 skeleton_enemy.gd::GDScript::-1::1737767491::0::1::::SkeletonEnemy<>CharacterBody2D<>::
 test_world.tscn::PackedScene::7441641465278830338::1737782071::0::1::::<><>::uid://0ayermjqhq5t::::res://test_world.tres<>uid://bcoko225jl74::::res://Assets/icon.svg<>uid://kfwvnbxw7kch::::res://Scenes/player.tscn<>uid://emih5dcfdx6f::::res://Scenes/skeleton.tscn
-::res://Scripts/::1737782071
-Animation.gd::GDScript::-1::1737767491::0::1::::<>CharacterBody2D<>::
+::res://Scripts/::1737782188
+Animation.gd::GDScript::-1::1737782188::0::1::::<>CharacterBody2D<>::
 Chase.gd::GDScript::-1::1737767491::0::1::::<>EnemyState<>::
 Enemy.gd::GDScript::-1::1737767491::0::1::::Enemy<>CharacterBody2D<>::
 Health.gd::GDScript::-1::1737767491::0::1::::Health<>Node<>::
