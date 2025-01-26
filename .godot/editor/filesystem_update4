@@ -1,8 +1,7 @@
 res://Scenes/skeleton.tscn
 res://Scripts/player.gd
 res://test_world.tres
-res://Scripts/skeleton.gd
+res://Scenes/test_world.tscn
 res://Scenes/player.tscn
 res://Scenes/menu.tscn
 res://Scripts/skeleton_enemy.tscn
-res://Scenes/test_world.tscn
