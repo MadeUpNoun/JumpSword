@@ -1,7 +1,10 @@
-res://Scenes/skeleton.tscn
+res://Scenes/player.tscn
 res://Scripts/player.gd
 res://test_world.tres
+res://Assets/Other/styleforbutton2.tres
+res://Assets/Other/styleforbutton.tres
 res://Scenes/test_world.tscn
-res://Scenes/player.tscn
+res://Scenes/pause_menu.tscn
 res://Scenes/menu.tscn
 res://Scripts/skeleton_enemy.tscn
+res://Scenes/skeleton.tscn

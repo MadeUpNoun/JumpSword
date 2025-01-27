@@ -1,11 +1,10 @@
-[gd_scene load_steps=9 format=4 uid="uid://dea10olox7ghm"]
+[gd_scene load_steps=8 format=4 uid="uid://dea10olox7ghm"]
 
 [ext_resource type="Script" path="res://Scenes/PauseMenu.gd" id="1_4h3oy"]
 [ext_resource type="TileSet" uid="uid://0ayermjqhq5t" path="res://test_world.tres" id="1_r1y3l"]
 [ext_resource type="Texture2D" uid="uid://bcoko225jl74" path="res://Assets/icon.svg" id="2_24she"]
 [ext_resource type="PackedScene" uid="uid://kfwvnbxw7kch" path="res://Scenes/player.tscn" id="2_cyst2"]
 [ext_resource type="PackedScene" uid="uid://emih5dcfdx6f" path="res://Scenes/skeleton.tscn" id="3_yexbl"]
-[ext_resource type="PackedScene" uid="uid://b7mb6gisock8b" path="res://Scenes/pause_menu.tscn" id="6_ppi7y"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_yv2tb"]
 texture = ExtResource("2_24she")
@@ -20,6 +19,7 @@ physics_layer_0/collision_mask = 4
 sources/1 = SubResource("TileSetAtlasSource_yv2tb")
 
 [node name="test world" type="Node2D"]
+script = ExtResource("1_4h3oy")
 
 [node name="Map holder" type="Node2D" parent="."]
 scale = Vector2(0.7, 0.7)
@@ -38,27 +38,3 @@ position = Vector2(-7, 1)
 [node name="Skeleton" parent="." instance=ExtResource("3_yexbl")]
 position = Vector2(-79, -438)
 scale = Vector2(0.7, 0.7)
-
-[node name="CanvasLayer" type="CanvasLayer" parent="."]
-process_mode = 3
-offset = Vector2(150, 500)
-scale = Vector2(1.58, 1.58)
-transform = Transform2D(1.58, 0, 0, 1.58, 150, 500)
-
-[node name="PauseMenu" parent="CanvasLayer" instance=ExtResource("6_ppi7y")]
-process_mode = 3
-visible = false
-anchors_preset = 0
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 0.0
-anchor_bottom = 0.0
-offset_left = 275.316
-offset_top = -103.165
-offset_right = 275.316
-offset_bottom = -103.165
-grow_horizontal = 1
-grow_vertical = 1
-
-[node name="Node2D" type="Node2D" parent="CanvasLayer"]
-script = ExtResource("1_4h3oy")

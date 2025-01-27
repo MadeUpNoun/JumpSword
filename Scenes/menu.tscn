@@ -2,18 +2,11 @@
 
 [ext_resource type="Script" path="res://Scripts/menu.gd" id="1_f76p1"]
 [ext_resource type="Texture2D" uid="uid://dxvv5msciekct" path="res://Assets/Images/MainMenuPlaceHolder.jpg" id="2_pymgc"]
+[ext_resource type="StyleBox" uid="uid://cv3omgxnpirec" path="res://Assets/Other/styleforbutton2.tres" id="3_f0wsx"]
 [ext_resource type="FontFile" uid="uid://dh7e4kw73frlk" path="res://Assets/Other/Dedicool.ttf" id="3_tbmn8"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_03iwn"]
 texture = ExtResource("2_pymgc")
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_irs2l"]
-bg_color = Color(0.945098, 1, 1, 1)
-corner_radius_top_left = 20
-corner_radius_top_right = 20
-corner_radius_bottom_right = 20
-corner_radius_bottom_left = 20
-shadow_size = 6
 
 [node name="Menu" type="Control"]
 layout_mode = 3
@@ -53,7 +46,7 @@ layout_mode = 2
 size_flags_vertical = 3
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 25
-theme_override_styles/normal = SubResource("StyleBoxFlat_irs2l")
+theme_override_styles/normal = ExtResource("3_f0wsx")
 text = "Play"
 
 [node name="Settings" type="Button" parent="VBoxContainer"]
@@ -61,7 +54,7 @@ layout_mode = 2
 size_flags_vertical = 3
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 25
-theme_override_styles/normal = SubResource("StyleBoxFlat_irs2l")
+theme_override_styles/normal = ExtResource("3_f0wsx")
 text = "Settings"
 
 [node name="Quit" type="Button" parent="VBoxContainer"]
@@ -69,7 +62,7 @@ layout_mode = 2
 size_flags_vertical = 3
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 25
-theme_override_styles/normal = SubResource("StyleBoxFlat_irs2l")
+theme_override_styles/normal = ExtResource("3_f0wsx")
 text = "Quit"
 
 [node name="Label" type="Label" parent="."]

@@ -1,4 +1,10 @@
+Node2D
+CanvasLayer
 TileMapLayer
+TextEdit
+Button
+VBoxContainer
+MarginContainer
 Node
 AnimationPlayer
 CollisionShape2D
@@ -7,8 +13,3 @@ RigidBody2D
 Timer
 CharacterBody2D
 AnimatedSprite2D
-Label
-Panel
-Button
-VBoxContainer
-MarginContainer
