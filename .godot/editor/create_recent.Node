@@ -1,6 +1,10 @@
+TileMapLayer
+Parallax2D
+TileMap
+ParallaxBackground
+ParallaxLayer
 Node2D
 CanvasLayer
-TileMapLayer
 TextEdit
 Button
 VBoxContainer
@@ -8,8 +12,3 @@ MarginContainer
 Node
 AnimationPlayer
 CollisionShape2D
-Area2D
-RigidBody2D
-Timer
-CharacterBody2D
-AnimatedSprite2D

@@ -663,7 +663,7 @@ texture = ExtResource("3_2hh6s")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 enabled = false
-zoom = Vector2(7, 7)
+zoom = Vector2(3, 3)
 
 [node name="Arrow_turn_table" type="Node2D" parent="."]
 
