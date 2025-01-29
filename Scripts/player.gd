@@ -23,7 +23,6 @@ func _physics_process(delta: float) -> void:
 	if possession == false:
 		show()
 		freeze = false
-		$Camera2D.enabled = true
 		on_floor = $Area2D.has_overlapping_bodies()
 
 		#controls left and right turning
