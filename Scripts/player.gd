@@ -57,7 +57,6 @@ func _physics_process(delta: float) -> void:
 				charge = 0.0
 				
 	if possession == true:
-		$Camera2D.enabled = false
 		freeze = true
 		global_transform = skeleton_transform
 

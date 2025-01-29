@@ -14,13 +14,11 @@ var possessed = false
 func _physics_process(delta: float) -> void:
 	if possessed == false:
 		Arrow_turn_table.hide()
-		$Camera2D.enabled = false
 		if $Area2D.has_overlapping_bodies():
 			E.show()
 			if Input.is_action_just_pressed("possess"):
 				E.hide()
 				anim.play("WakeUp")
-				$Camera2D.enabled = true
 				await anim.animation_finished
 				player.possession = true
 				possessed = true
@@ -44,7 +42,6 @@ func _physics_process(delta: float) -> void:
 		else:
 			anim.play("Idle")
 		
-		$Camera2D.enabled = true
 		player.skeleton_transform = global_transform
 
 		if Input.is_action_just_pressed("possess"):

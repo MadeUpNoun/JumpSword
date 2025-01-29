@@ -22,4 +22,27 @@ func _process(delta: float) -> void:
 		$Level_4_Camera.enabled = true
 	else:
 		$Level_4_Camera.enabled = false
-	
+	if $Level_5_Camera/Level_5_area.has_overlapping_areas():
+		$Level_5_Camera.enabled = true
+	else:
+		$Level_5_Camera.enabled = false
+	if $Level_6_Camera/Level_6_area.has_overlapping_areas():
+		$Level_6_Camera.enabled = true
+	else:
+		$Level_6_Camera.enabled = false
+	if $Level_7_Camera/Level_7_area.has_overlapping_areas():
+		$Level_7_Camera.enabled = true
+	else:
+		$Level_7_Camera.enabled = false
+	if $Level_8_Camera/Level_8_area.has_overlapping_areas():
+		$Level_8_Camera.enabled = true
+	else:
+		$Level_8_Camera.enabled = false
+	if $Level_9_Camera/Level_9_area.has_overlapping_areas():
+		$Level_9_Camera.enabled = true
+	else:
+		$Level_9_Camera.enabled = false
+	if $Level_10_Camera/Level_10_area.has_overlapping_areas():
+		$Level_10_Camera.enabled = true
+	else:
+		$Level_10_Camera.enabled = false

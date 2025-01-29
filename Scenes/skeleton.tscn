@@ -661,10 +661,6 @@ visible = false
 position = Vector2(0.5, -31)
 texture = ExtResource("3_2hh6s")
 
-[node name="Camera2D" type="Camera2D" parent="."]
-enabled = false
-zoom = Vector2(3, 3)
-
 [node name="Arrow_turn_table" type="Node2D" parent="."]
 
 [node name="Arrow" type="AnimatedSprite2D" parent="Arrow_turn_table"]
@@ -672,6 +668,3 @@ position = Vector2(29.5, -1.45341e-11)
 rotation = 1.5708
 scale = Vector2(0.4, 0.4)
 sprite_frames = SubResource("SpriteFrames_68o12")
-
-[connection signal="body_shape_entered" from="Area2D" to="." method="_on_area_2d_body_shape_entered"]
-[connection signal="body_shape_exited" from="Area2D" to="." method="_on_area_2d_body_shape_exited"]
