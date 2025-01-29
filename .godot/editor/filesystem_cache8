@@ -1,8 +1,8 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1738015864
+::res://::1738109805
 NPCBlocker.tres::TileSet::6012640688802452244::1737782108::0::1::::<><>::uid://bcoko225jl74::::res://Assets/icon.svg
-test_world.tres::TileSet::1756186353818024615::1738015864::0::1::::<><>::uid://bi0frquvijpra::::res://Assets/Dungeon Tiles.png
-::res://Aspite files/::1738021893
+test_world.tres::TileSet::1756186353818024615::1738022168::0::1::::<><>::uid://bi0frquvijpra::::res://Assets/Dungeon Tiles.png
+::res://Aspite files/::1738021894
 background.png::CompressedTexture2D::5161460008939785556::1738021893::1738021894::1::::<><>::
 CaveBG.png::CompressedTexture2D::407714034461089993::1738007388::1738013594::1::::<><>::
 ::res://Assets/::1738013593
@@ -21,17 +21,18 @@ Dedicool.ttf::FontFile::7716939261380516652::1737409351::1738013593::1::::<><>::
 Minecraft.ttf::FontFile::6623189641288947835::1738007388::1738013593::1::::<><>::
 styleforbutton2.tres::StyleBoxFlat::6305481479605787358::1738015864::0::1::::<><>::
 styleforbutton.tres::StyleBoxFlat::4926071948051405677::1738015864::0::1::::<><>::
-::res://Scenes/::1738018772
-menu.tscn::PackedScene::5705596970289414303::1738018208::0::1::::<><>::res://Scripts/menu.gd<>uid://dxvv5msciekct::::res://Assets/Images/MainMenuPlaceHolder.jpg<>uid://cv3omgxnpirec::::res://Assets/Other/styleforbutton2.tres<>uid://dh7e4kw73frlk::::res://Assets/Other/Dedicool.ttf
+::res://Scenes/::1738022270
+background.tres::TileSet::3931117434385360583::1738022266::0::1::::<><>::uid://cfsiq0blnanmy::::res://Aspite files/background.png
+menu.tscn::PackedScene::5705596970289414303::1738022188::0::1::::<><>::res://Scripts/menu.gd<>uid://dxvv5msciekct::::res://Assets/Images/MainMenuPlaceHolder.jpg<>uid://cv3omgxnpirec::::res://Assets/Other/styleforbutton2.tres<>uid://dh7e4kw73frlk::::res://Assets/Other/Dedicool.ttf
 MenuTracker.gd::GDScript::-1::1738007388::0::1::::<>RefCounted<>::
 PauseMenu.gd::GDScript::-1::1738007388::0::1::::<>Node2D<>::
 PauseMenuButtons.gd::GDScript::-1::1738007388::0::1::::<>Control<>::
-pause_menu.tscn::PackedScene::4657352618097846715::1738018208::0::1::::<><>::uid://dh7e4kw73frlk::::res://Assets/Other/Dedicool.ttf<>uid://f2q8xd0pufcb::::res://Aspite files/CaveBG.png<>res://Scenes/PauseMenuButtons.gd<>uid://bi0frquvijpra::::res://Assets/Dungeon Tiles.png<>uid://cv3omgxnpirec::::res://Assets/Other/styleforbutton2.tres<>uid://ccghxkgdmxyjd::::res://Assets/Other/styleforbutton.tres
-player.tscn::PackedScene::713584286087527539::1738018208::0::1::::<><>::uid://d1fytws4mh3wg::::res://Assets/Player_Sword.png<>res://Scripts/player.gd<>uid://c6r3u8wskgute::::res://Assets/Arrow-Sheet.png
-skeleton.tscn::PackedScene::306027724532928487::1738018209::0::1::::<><>::res://Scripts/skeleton.gd<>uid://dmrq2nvajat3g::::res://Assets/skeleton_Sheet.png<>uid://c1voc2ggmt5si::::res://Assets/E.png<>uid://c6r3u8wskgute::::res://Assets/Arrow-Sheet.png
+pause_menu.tscn::PackedScene::4657352618097846715::1738022188::0::1::::<><>::uid://dh7e4kw73frlk::::res://Assets/Other/Dedicool.ttf<>uid://f2q8xd0pufcb::::res://Aspite files/CaveBG.png<>res://Scenes/PauseMenuButtons.gd<>uid://bi0frquvijpra::::res://Assets/Dungeon Tiles.png<>uid://cv3omgxnpirec::::res://Assets/Other/styleforbutton2.tres<>uid://ccghxkgdmxyjd::::res://Assets/Other/styleforbutton.tres
+player.tscn::PackedScene::713584286087527539::1738022187::0::1::::<><>::uid://d1fytws4mh3wg::::res://Assets/Player_Sword.png<>res://Scripts/player.gd<>uid://c6r3u8wskgute::::res://Assets/Arrow-Sheet.png
+skeleton.tscn::PackedScene::306027724532928487::1738022188::0::1::::<><>::res://Scripts/skeleton.gd<>uid://dmrq2nvajat3g::::res://Assets/skeleton_Sheet.png<>uid://c1voc2ggmt5si::::res://Assets/E.png<>uid://c6r3u8wskgute::::res://Assets/Arrow-Sheet.png
 skeleton_enemy.gd::GDScript::-1::1737767491::0::1::::SkeletonEnemy<>CharacterBody2D<>::
-test_world.tscn::PackedScene::7441641465278830338::1738018772::0::1::::<><>::res://Scenes/PauseMenu.gd<>uid://0ayermjqhq5t::::res://test_world.tres<>uid://bcoko225jl74::::res://Assets/icon.svg<>uid://kfwvnbxw7kch::::res://Scenes/player.tscn<>uid://emih5dcfdx6f::::res://Scenes/skeleton.tscn<>uid://b7mb6gisock8b::::res://Scenes/pause_menu.tscn
-::res://Scripts/::1738018208
+test_world.tscn::PackedScene::7441641465278830338::1738022270::0::1::::<><>::res://Scenes/PauseMenu.gd<>uid://0ayermjqhq5t::::res://test_world.tres<>uid://bcoko225jl74::::res://Assets/icon.svg<>uid://kfwvnbxw7kch::::res://Scenes/player.tscn<>uid://bwai6u35nkhy2::::res://Scenes/background.tres<>uid://emih5dcfdx6f::::res://Scenes/skeleton.tscn<>uid://b7mb6gisock8b::::res://Scenes/pause_menu.tscn
+::res://Scripts/::1738022188
 Animation.gd::GDScript::-1::1737782188::0::1::::<>CharacterBody2D<>::
 Chase.gd::GDScript::-1::1737767491::0::1::::<>EnemyState<>::
 Enemy.gd::GDScript::-1::1737767491::0::1::::Enemy<>CharacterBody2D<>::
@@ -40,7 +41,7 @@ HitBox.gd::GDScript::-1::1737767491::0::1::::Hitbox<>Area2D<>::
 menu.gd::GDScript::-1::1737409351::0::1::::<>Control<>::
 player.gd::GDScript::-1::1738015864::0::1::::<>RigidBody2D<>::
 skeleton.gd::GDScript::-1::1737856596::0::1::::<>CharacterBody2D<>::
-skeleton_enemy.tscn::PackedScene::7110866756351217100::1738018208::0::1::::<><>::res://Scripts/Enemy.gd<>res://Scripts/HitBox.gd<>uid://didtfom6oyinb::::res://Assets/Images/Skeleton enemy.png<>res://Scripts/States/state_machine.gd<>res://Scripts/States/EnemyWander.gd<>res://Scripts/Health.gd<>res://Scripts/States/EnemyIdle.gd
+skeleton_enemy.tscn::PackedScene::7110866756351217100::1738022188::0::1::::<><>::res://Scripts/Enemy.gd<>res://Scripts/HitBox.gd<>uid://didtfom6oyinb::::res://Assets/Images/Skeleton enemy.png<>res://Scripts/States/state_machine.gd<>res://Scripts/States/EnemyWander.gd<>res://Scripts/Health.gd<>res://Scripts/States/EnemyIdle.gd
 ::res://Scripts/Classes/::1737767491
 Attack.gd::GDScript::-1::1737767491::0::1::::Attack<>RefCounted<>::
 ::res://Scripts/States/::1737767491
