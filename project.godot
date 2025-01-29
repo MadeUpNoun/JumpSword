@@ -11,9 +11,16 @@ config_version=5
 [application]
 
 config/name="Jump Sword"
-run/main_scene="res://Scenes/menu.tscn"
+run/main_scene="res://Scenes/menu/menu.tscn"
 config/features=PackedStringArray("4.3", "GL Compatibility")
 config/icon="res://Assets/icon.svg"
+
+[autoload]
+
+SaveManager="*res://Autoload/SaveManager.gd"
+SettingsSignalBus="*res://Autoload/SettingsSignalBus.gd"
+SettingsDataContainer="*res://Autoload/SettingsDataContainer.gd"
+BackgroundMusic="*res://Autoload/background_music.tscn"
 
 [display]
 

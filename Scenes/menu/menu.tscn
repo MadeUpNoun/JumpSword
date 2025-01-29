@@ -1,0 +1,92 @@
+[gd_scene load_steps=7 format=3 uid="uid://cnj3l34spu7pr"]
+
+[ext_resource type="Script" path="res://Scripts/menu.gd" id="1_vggcf"]
+[ext_resource type="Texture2D" uid="uid://dxvv5msciekct" path="res://Assets/Images/MainMenuPlaceHolder.jpg" id="2_ef1em"]
+[ext_resource type="StyleBox" uid="uid://cv3omgxnpirec" path="res://Assets/Other/styleforbutton2.tres" id="3_xaw12"]
+[ext_resource type="FontFile" uid="uid://dh7e4kw73frlk" path="res://Assets/Other/Dedicool.ttf" id="4_lxni6"]
+[ext_resource type="PackedScene" uid="uid://br3nsgkre2nxn" path="res://Scenes/menu/settings/settings_menu.tscn" id="5_3l7h8"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_03iwn"]
+texture = ExtResource("2_ef1em")
+
+[node name="Menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_vggcf")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_03iwn")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -143.5
+offset_top = -98.5
+offset_right = 143.5
+offset_bottom = 98.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 20
+
+[node name="Play" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 25
+theme_override_styles/normal = ExtResource("3_xaw12")
+text = "Play"
+
+[node name="Settings" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 25
+theme_override_styles/normal = ExtResource("3_xaw12")
+text = "Settings"
+
+[node name="Quit" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 25
+theme_override_styles/normal = ExtResource("3_xaw12")
+text = "Quit"
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -103.0
+offset_top = 58.0
+offset_right = 103.0
+offset_bottom = 124.0
+grow_horizontal = 2
+theme_override_fonts/font = ExtResource("4_lxni6")
+theme_override_font_sizes/font_size = 60
+text = "JUMP SWORD"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="settings_menu" parent="." instance=ExtResource("5_3l7h8")]
+visible = false
+layout_mode = 1
+
+[connection signal="pressed" from="VBoxContainer/Play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="VBoxContainer/Settings" to="." method="_on_settings_pressed"]
+[connection signal="pressed" from="VBoxContainer/Quit" to="." method="_on_quit_pressed"]
+[connection signal="exit_settings_menu" from="settings_menu" to="." method="_on_settings_menu_exit_settings_menu"]

@@ -1,4 +1,5 @@
 extends RigidBody2D
+class_name Player
 
 @onready var Arrow_turn_table = $Arrow_turn_table
 @onready var Arrow = $Arrow_turn_table/Arrow

@@ -1,4 +1,4 @@
-[gd_scene load_steps=53 format=3 uid="uid://c8ks63w2qv6f5"]
+[gd_scene load_steps=54 format=3 uid="uid://c8ks63w2qv6f5"]
 
 [ext_resource type="Script" path="res://Scripts/Enemy.gd" id="1_b41ki"]
 [ext_resource type="Script" path="res://Scripts/HitBox.gd" id="2_k8t81"]
@@ -7,6 +7,7 @@
 [ext_resource type="Script" path="res://Scripts/States/EnemyWander.gd" id="4_35yg7"]
 [ext_resource type="Script" path="res://Scripts/Health.gd" id="4_wha2a"]
 [ext_resource type="Script" path="res://Scripts/States/EnemyIdle.gd" id="5_5r7q1"]
+[ext_resource type="Script" path="res://Scripts/States/EnemyState.gd" id="8_dtkav"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_bs2vl"]
 size = Vector2(21, 32)
@@ -365,5 +366,8 @@ wander_speed = 5.0
 
 [node name="Idle" type="Node" parent="State Machine"]
 script = ExtResource("5_5r7q1")
+
+[node name="EnemyState" type="Node" parent="State Machine"]
+script = ExtResource("8_dtkav")
 
 [connection signal="damaged" from="Area2D" to="." method="on_damaged"]

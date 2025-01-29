@@ -1,6 +1,9 @@
 res://Scenes
-res://Assets
+res://Autoload
+res://Scenes/menu/settings
+res://Scenes/menu
 res://
+res://Assets
 res://Assets/Other
 res://Scripts
 res://Assets/Images

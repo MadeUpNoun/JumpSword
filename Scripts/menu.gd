@@ -1,13 +1,25 @@
 extends Control
 
+@onready var v_box_container: VBoxContainer = $VBoxContainer
+@onready var settings_menu: SettingsMenu = $settings_menu
 
 func _on_play_pressed():
 	# Change To Game Scene When Created
-	get_tree().change_scene_to_file("res://Scenes/test_world.tscn")
+		get_tree().change_scene_to_file("res://Scenes/test_world.tscn")
 	# Change When Settings implemented
 
 func _on_quit_pressed():
 	get_tree().quit()
 
+
 func _on_settings_pressed() -> void:
-	pass # Replace with function body.
+	v_box_container.visible = false
+	settings_menu.visible = true
+	settings_menu.set_process(true)
+
+
+func _on_settings_menu_exit_settings_menu() -> void:
+	v_box_container.visible = true
+	settings_menu.visible = false
+	
+ 
