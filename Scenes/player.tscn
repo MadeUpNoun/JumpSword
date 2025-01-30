@@ -411,6 +411,7 @@ collision_mask = 9
 gravity_scale = 0.1
 center_of_mass_mode = 1
 can_sleep = false
+continuous_cd = 2
 contact_monitor = true
 max_contacts_reported = 2
 script = ExtResource("1_mi2yd")

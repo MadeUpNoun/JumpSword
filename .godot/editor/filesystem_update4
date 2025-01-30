@@ -1,0 +1,13 @@
+res://main_map.tscn
+res://test_world.tres
+res://background.tres
+res://Assets/Other/styleforbutton2.tres
+res://Assets/Other/styleforbutton.tres
+res://Scenes/player.tscn
+res://Scenes/test_world.tscn
+res://Scenes/menu/pause_menu.tscn
+res://Scenes/menu/menu.tscn
+res://Scenes/menu/settings/settings_menu.tscn
+res://Scenes/skeleton.tscn
+res://Autoload/background_music.tscn
+res://camera_holder.gd

@@ -46,3 +46,7 @@ func _process(delta: float) -> void:
 		$Level_10_Camera.enabled = true
 	else:
 		$Level_10_Camera.enabled = false
+	if $Level_11_Camera/Level_11_area.has_overlapping_areas():
+		$Level_11_Camera.enabled = true
+	else:
+		$Level_11_Camera.enabled = false
