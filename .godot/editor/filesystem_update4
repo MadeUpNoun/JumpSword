@@ -10,4 +10,3 @@ res://Scenes/menu/menu.tscn
 res://Scenes/menu/settings/settings_menu.tscn
 res://Scenes/skeleton.tscn
 res://Autoload/background_music.tscn
-res://camera_holder.gd
