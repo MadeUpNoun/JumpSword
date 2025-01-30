@@ -17,9 +17,9 @@ config/icon="res://Assets/icon.svg"
 
 [autoload]
 
-SaveManager="*res://Autoload/SaveManager.gd"
 SettingsSignalBus="*res://Autoload/SettingsSignalBus.gd"
 SettingsDataContainer="*res://Autoload/SettingsDataContainer.gd"
+SaveManager="*res://Autoload/SaveManager.gd"
 BackgroundMusic="*res://Autoload/background_music.tscn"
 
 [display]

@@ -1,76 +1,76 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1738225874
-background.tres::TileSet::3931117434385360583::1738223824::0::1::::<><>::uid://cfsiq0blnanmy::::res://Aspite files/background.png
-default_bus_layout.tres::AudioBusLayout::2895090058593894184::1738179419::0::1::::<><>::
-main_map.tscn::PackedScene::6770857615820626603::1738225874::0::1::::<><>::uid://0ayermjqhq5t::::res://test_world.tres<>uid://bcoko225jl74::::res://Assets/icon.svg<>uid://bwai6u35nkhy2::::res://background.tres<>uid://kfwvnbxw7kch::::res://Scenes/player.tscn<>uid://emih5dcfdx6f::::res://Scenes/skeleton.tscn<>res://Scripts/camera_holder.gd<>uid://b7mb6gisock8b::::res://Scenes/menu/pause_menu.tscn<>res://Scenes/menu/PauseMenu.gd
-NPCBlocker.tres::TileSet::6012640688802452244::1737782108::0::1::::<><>::uid://bcoko225jl74::::res://Assets/icon.svg
-test_world.tres::TileSet::1756186353818024615::1738223824::0::1::::<><>::uid://bi0frquvijpra::::res://Assets/Dungeon Tiles.png
-::res://Aspite files/::1738230147
-background.png::CompressedTexture2D::5161460008939785556::1738021893::1738179459::1::::<><>::
-CaveBG.png::CompressedTexture2D::407714034461089993::1738007388::1738179459::1::::<><>::
-dead man.png::CompressedTexture2D::8890670313168149459::1738230481::1738230482::1::::<><>::
-new sword who dis-Sheet.png::CompressedTexture2D::1102376100472230692::1738229323::1738229324::1::::<><>::
-::res://Assets/::1738179459
-Arrow-Sheet.png::CompressedTexture2D::6985527501747493610::1737371131::1738179459::1::::<><>::
-Dungeon Tiles.png::CompressedTexture2D::2999875692343966950::1737471181::1738179459::1::::<><>::
-E.png::CompressedTexture2D::6641958271985550716::1737694297::1738179459::1::::<><>::
-icon.svg::CompressedTexture2D::75186273287766737::1737177323::1738179459::1::::<><>::
-Player_Sword.png::CompressedTexture2D::8995986197003186426::1737197137::1738179459::1::::<><>::
-skeleton_Sheet.png::CompressedTexture2D::8037643000130898138::1737693095::1738179459::1::::<><>::
-::res://Assets/Audio/::1738179459
-pixel-245147.mp3::AudioStreamMP3::145294197106578168::1738179419::1738179459::1::::<><>::
-::res://Assets/Images/::1738179459
-MainMenuPlaceHolder.jpg::CompressedTexture2D::8818286676442957535::1737409351::1738179459::1::::<><>::
-Skeleton enemy.png::CompressedTexture2D::7728129240570543707::1737767491::1738179459::1::::<><>::
-::res://Assets/Other/::1738223824
-Blox2.ttf::FontFile::3786623856016239113::1737409351::1738179459::1::::<><>::
-Dedicool.ttf::FontFile::7716939261380516652::1737409351::1738179459::1::::<><>::
-Minecraft.ttf::FontFile::6623189641288947835::1738007388::1738179459::1::::<><>::
-styleforbutton2.tres::StyleBoxFlat::6305481479605787358::1738223824::0::1::::<><>::
-styleforbutton.tres::StyleBoxFlat::4926071948051405677::1738223824::0::1::::<><>::
-::res://Autoload/::1738225874
-background_music.tscn::PackedScene::9085453687214405494::1738225874::0::1::::<><>::uid://ccm8ef5wlphw::::res://Assets/Audio/pixel-245147.mp3
-SaveManager.gd::GDScript::-1::1738179419::0::1::::<>Node<>::
-SettingsDataContainer.gd::GDScript::-1::1738179419::0::1::::<>Node<>::
-SettingsSignalBus.gd::GDScript::-1::1738179419::0::1::::<>Node<>::
-::res://Scenes/::1738225874
-player.tscn::PackedScene::713584286087527539::1738225874::0::1::::<><>::uid://d1fytws4mh3wg::::res://Assets/Player_Sword.png<>res://Scripts/player.gd<>uid://c6r3u8wskgute::::res://Assets/Arrow-Sheet.png
-skeleton.tscn::PackedScene::306027724532928487::1738225874::0::1::::<><>::res://Scripts/skeleton.gd<>uid://dmrq2nvajat3g::::res://Assets/skeleton_Sheet.png<>uid://c1voc2ggmt5si::::res://Assets/E.png<>uid://c6r3u8wskgute::::res://Assets/Arrow-Sheet.png
-skeleton_enemy.gd::GDScript::-1::1737767491::0::1::::SkeletonEnemy<>CharacterBody2D<>::
-test_world.tscn::PackedScene::7441641465278830338::1738225874::0::1::::<><>::res://Scenes/menu/PauseMenu.gd<>uid://0ayermjqhq5t::::res://test_world.tres<>uid://bcoko225jl74::::res://Assets/icon.svg<>uid://kfwvnbxw7kch::::res://Scenes/player.tscn<>uid://bwai6u35nkhy2::::res://background.tres<>uid://emih5dcfdx6f::::res://Scenes/skeleton.tscn<>uid://b7mb6gisock8b::::res://Scenes/menu/pause_menu.tscn
-::res://Scenes/menu/::1738225874
-menu.tscn::PackedScene::5705596970289414303::1738225874::0::1::::<><>::res://Scripts/menu.gd<>uid://dxvv5msciekct::::res://Assets/Images/MainMenuPlaceHolder.jpg<>uid://cv3omgxnpirec::::res://Assets/Other/styleforbutton2.tres<>uid://dh7e4kw73frlk::::res://Assets/Other/Dedicool.ttf<>uid://br3nsgkre2nxn::::res://Scenes/menu/settings/settings_menu.tscn
-MenuTracker.gd::GDScript::-1::1738179419::0::1::::<>RefCounted<>::
-PauseMenu.gd::GDScript::-1::1738179419::0::1::::<>Node2D<>::
-PauseMenuButtons.gd::GDScript::-1::1738179419::0::1::::<>Control<>::
-pause_menu.tscn::PackedScene::4657352618097846715::1738225874::0::1::::<><>::uid://dh7e4kw73frlk::::res://Assets/Other/Dedicool.ttf<>uid://f2q8xd0pufcb::::res://Aspite files/CaveBG.png<>res://Scenes/menu/PauseMenuButtons.gd<>uid://bi0frquvijpra::::res://Assets/Dungeon Tiles.png<>uid://cv3omgxnpirec::::res://Assets/Other/styleforbutton2.tres<>uid://ccghxkgdmxyjd::::res://Assets/Other/styleforbutton.tres
-::res://Scenes/menu/settings/::1738225874
-AudioSliderSettings.gd::GDScript::-1::1738179419::0::1::::<>Control<>::
-audio_slider_settings.tscn::PackedScene::8240270997109826742::1738179419::0::1::::<><>::res://Scenes/menu/settings/AudioSliderSettings.gd
-ResolutionModeButton.gd::GDScript::-1::1738179419::0::1::::<>Control<>::
-resolution_mode_button.tscn::PackedScene::2881636003802625414::1738179419::0::1::::<><>::uid://cjdjbc37soe3t::::res://Scenes/menu/settings/settings_display_button.tscn<>res://Scenes/menu/settings/ResolutionModeButton.gd
-SettingsMenu.gd::GDScript::-1::1738179419::0::1::::SettingsMenu<>Control<>::
-settings_display_button.tscn::PackedScene::5411282481899243371::1738179419::0::1::::<><>::
-settings_menu.tscn::PackedScene::3638255399216547079::1738225874::0::1::::<><>::res://Scenes/menu/settings/SettingsMenu.gd<>uid://tpqav8vid64q::::res://Scenes/menu/settings/settings_tab_container.tscn
-settings_tab_container.tscn::PackedScene::1365526322251663454::1738179419::0::1::::<><>::uid://ihr4e6fujj47::::res://Scenes/menu/settings/window_mode_button.tscn<>uid://bhb5ehksa74j7::::res://Scenes/menu/settings/resolution_mode_button.tscn<>uid://dpnwcaw2mcrys::::res://Scenes/menu/settings/audio_slider_settings.tscn
-WindowModeButton.gd::GDScript::-1::1738179419::0::1::::<>Control<>::
-window_mode_button.tscn::PackedScene::577045628519555846::1738179419::0::1::::<><>::uid://cjdjbc37soe3t::::res://Scenes/menu/settings/settings_display_button.tscn<>res://Scenes/menu/settings/WindowModeButton.gd
-::res://Scripts/::1738223824
-Animation.gd::GDScript::-1::1737782188::0::1::::<>CharacterBody2D<>::
-camera_holder.gd::GDScript::-1::1738214874::0::1::::<>Node2D<>::
-Chase.gd::GDScript::-1::1737767491::0::1::::<>EnemyState<>::
-Enemy.gd::GDScript::-1::1737767491::0::1::::Enemy<>CharacterBody2D<>::
-Health.gd::GDScript::-1::1737767491::0::1::::Health<>Node<>::
-HitBox.gd::GDScript::-1::1737767491::0::1::::Hitbox<>Area2D<>::
-menu.gd::GDScript::-1::1738179721::0::1::::<>Control<>::
-player.gd::GDScript::-1::1738182277::0::1::::Player<>RigidBody2D<>::
-skeleton.gd::GDScript::-1::1738181924::0::1::::<>CharacterBody2D<>::
-skeleton_enemy.tscn::PackedScene::7110866756351217100::1738179419::0::1::::<><>::res://Scripts/Enemy.gd<>res://Scripts/HitBox.gd<>uid://didtfom6oyinb::::res://Assets/Images/Skeleton enemy.png<>res://Scripts/States/state_machine.gd<>res://Scripts/States/EnemyWander.gd<>res://Scripts/Health.gd<>res://Scripts/States/EnemyIdle.gd<>res://Scripts/States/EnemyState.gd
-::res://Scripts/Classes/::1737767491
-Attack.gd::GDScript::-1::1737767491::0::1::::Attack<>RefCounted<>::
-::res://Scripts/States/::1737767491
-EnemyIdle.gd::GDScript::-1::1737767491::0::1::::EnemyIdle<>EnemyState<>::
-EnemyState.gd::GDScript::-1::1737767491::0::1::::EnemyState<>Node<>::
-EnemyWander.gd::GDScript::-1::1737767491::0::1::::<>EnemyState<>::
-State.gd::GDScript::-1::1737767491::0::1::::State<>Node<>::
-state_machine.gd::GDScript::-1::1737767491::0::1::::<>Node<>::
+::res://::1738235435
+background.tres::TileSet::3931117434385360583::1738235435::0::1::::<><>::uid://cfsiq0blnanmy::::res://Aspite files/background.png
+default_bus_layout.tres::AudioBusLayout::2895090058593894184::1738131064::0::1::::<><>::
+main_map.tscn::PackedScene::6770857615820626603::1738231847::0::1::::<><>::uid://0ayermjqhq5t::::res://test_world.tres<>uid://bcoko225jl74::::res://Assets/icon.svg<>uid://bwai6u35nkhy2::::res://background.tres<>uid://kfwvnbxw7kch::::res://Scenes/player.tscn<>uid://emih5dcfdx6f::::res://Scenes/skeleton.tscn<>res://Scripts/camera_holder.gd<>uid://b7mb6gisock8b::::res://Scenes/menu/pause_menu.tscn<>res://Scenes/menu/PauseMenu.gd<>uid://dywybnr8bnjkd::::res://Aspite files/dead man.png<>uid://px88dfgxuhhk::::res://Aspite files/new sword who dis-Sheet.png
+NPCBlocker.tres::TileSet::6012640688802452244::1738057522::0::1::::<><>::uid://bcoko225jl74::::res://Assets/icon.svg
+test_world.tres::TileSet::1756186353818024615::1738235434::0::1::::<><>::uid://bi0frquvijpra::::res://Assets/Dungeon Tiles.png
+::res://Aspite files/::1738231929
+background.png::CompressedTexture2D::5161460008939785556::1738057522::1738231929::1::::<><>::
+CaveBG.png::CompressedTexture2D::407714034461089993::1738057522::1738231929::1::::<><>::
+dead man.png::CompressedTexture2D::8890670313168149459::1738231847::1738231929::1::::<><>::
+new sword who dis-Sheet.png::CompressedTexture2D::1102376100472230692::1738231847::1738231929::1::::<><>::
+::res://Assets/::1738231929
+Arrow-Sheet.png::CompressedTexture2D::6985527501747493610::1737379818::1738231929::1::::<><>::
+Dungeon Tiles.png::CompressedTexture2D::2999875692343966950::1737720403::1738231929::1::::<><>::
+E.png::CompressedTexture2D::6641958271985550716::1737720403::1738231929::1::::<><>::
+icon.svg::CompressedTexture2D::75186273287766737::1737205808::1738231929::1::::<><>::
+Player_Sword.png::CompressedTexture2D::8995986197003186426::1737205808::1738231929::1::::<><>::
+skeleton_Sheet.png::CompressedTexture2D::8037643000130898138::1737720403::1738231929::1::::<><>::
+::res://Assets/Audio/::1738231929
+pixel-245147.mp3::AudioStreamMP3::145294197106578168::1738122674::1738231929::1::::<><>::
+::res://Assets/Images/::1738231929
+MainMenuPlaceHolder.jpg::CompressedTexture2D::8818286676442957535::1737381084::1738231929::1::::<><>::
+Skeleton enemy.png::CompressedTexture2D::7728129240570543707::1737435007::1738231929::1::::<><>::
+::res://Assets/Other/::1738235435
+Blox2.ttf::FontFile::3786623856016239113::1737381877::1738231929::1::::<><>::
+Dedicool.ttf::FontFile::7716939261380516652::1737381986::1738231929::1::::<><>::
+Minecraft.ttf::FontFile::6623189641288947835::1738057522::1738231929::1::::<><>::
+styleforbutton2.tres::StyleBoxFlat::6305481479605787358::1738235435::0::1::::<><>::
+styleforbutton.tres::StyleBoxFlat::4926071948051405677::1738235435::0::1::::<><>::
+::res://Autoload/::1738235568
+background_music.tscn::PackedScene::9085453687214405494::1738131100::0::1::::<><>::uid://ccm8ef5wlphw::::res://Assets/Audio/pixel-245147.mp3
+SaveManager.gd::GDScript::-1::1738234326::0::1::::<>Node<>::
+SettingsDataContainer.gd::GDScript::-1::1738235568::0::1::::<>Node<>::
+SettingsSignalBus.gd::GDScript::-1::1738233635::0::1::::<>Node<>::
+::res://Scenes/::1738231847
+player.tscn::PackedScene::713584286087527539::1738231847::0::1::::<><>::uid://d1fytws4mh3wg::::res://Assets/Player_Sword.png<>res://Scripts/player.gd<>uid://c6r3u8wskgute::::res://Assets/Arrow-Sheet.png
+skeleton.tscn::PackedScene::306027724532928487::1738231847::0::1::::<><>::res://Scripts/skeleton.gd<>uid://dmrq2nvajat3g::::res://Assets/skeleton_Sheet.png<>uid://c1voc2ggmt5si::::res://Assets/E.png<>uid://c6r3u8wskgute::::res://Assets/Arrow-Sheet.png
+skeleton_enemy.gd::GDScript::-1::1737546306::0::1::::SkeletonEnemy<>CharacterBody2D<>::
+test_world.tscn::PackedScene::7441641465278830338::1738231847::0::1::::<><>::res://Scenes/menu/PauseMenu.gd<>uid://0ayermjqhq5t::::res://test_world.tres<>uid://bcoko225jl74::::res://Assets/icon.svg<>uid://kfwvnbxw7kch::::res://Scenes/player.tscn<>uid://bwai6u35nkhy2::::res://background.tres<>uid://emih5dcfdx6f::::res://Scenes/skeleton.tscn<>uid://b7mb6gisock8b::::res://Scenes/menu/pause_menu.tscn
+::res://Scenes/menu/::1738131087
+menu.tscn::PackedScene::5705596970289414303::1738131087::0::1::::<><>::res://Scripts/menu.gd<>uid://dxvv5msciekct::::res://Assets/Images/MainMenuPlaceHolder.jpg<>uid://cv3omgxnpirec::::res://Assets/Other/styleforbutton2.tres<>uid://dh7e4kw73frlk::::res://Assets/Other/Dedicool.ttf<>uid://br3nsgkre2nxn::::res://Scenes/menu/settings/settings_menu.tscn
+MenuTracker.gd::GDScript::-1::1738057522::0::1::::<>RefCounted<>::
+PauseMenu.gd::GDScript::-1::1738057522::0::1::::<>Node2D<>::
+PauseMenuButtons.gd::GDScript::-1::1738129919::0::1::::<>Control<>::
+pause_menu.tscn::PackedScene::4657352618097846715::1738131087::0::1::::<><>::uid://dh7e4kw73frlk::::res://Assets/Other/Dedicool.ttf<>uid://f2q8xd0pufcb::::res://Aspite files/CaveBG.png<>res://Scenes/menu/PauseMenuButtons.gd<>uid://bi0frquvijpra::::res://Assets/Dungeon Tiles.png<>uid://cv3omgxnpirec::::res://Assets/Other/styleforbutton2.tres<>uid://ccghxkgdmxyjd::::res://Assets/Other/styleforbutton.tres
+::res://Scenes/menu/settings/::1738235568
+AudioSliderSettings.gd::GDScript::-1::1738127804::0::1::::<>Control<>::
+audio_slider_settings.tscn::PackedScene::8240270997109826742::1738122865::0::1::::<><>::res://Scenes/menu/settings/AudioSliderSettings.gd
+ResolutionModeButton.gd::GDScript::-1::1738127846::0::1::::<>Control<>::
+resolution_mode_button.tscn::PackedScene::2881636003802625414::1738122810::0::1::::<><>::uid://cjdjbc37soe3t::::res://Scenes/menu/settings/settings_display_button.tscn<>res://Scenes/menu/settings/ResolutionModeButton.gd
+SettingsMenu.gd::GDScript::-1::1738130873::0::1::::SettingsMenu<>Control<>::
+settings_display_button.tscn::PackedScene::5411282481899243371::1738129094::0::1::::<><>::
+settings_menu.tscn::PackedScene::3638255399216547079::1738235568::0::1::::<><>::res://Scenes/menu/settings/SettingsMenu.gd<>uid://tpqav8vid64q::::res://Scenes/menu/settings/settings_tab_container.tscn
+settings_tab_container.tscn::PackedScene::1365526322251663454::1738129094::0::1::::<><>::uid://ihr4e6fujj47::::res://Scenes/menu/settings/window_mode_button.tscn<>uid://bhb5ehksa74j7::::res://Scenes/menu/settings/resolution_mode_button.tscn<>uid://dpnwcaw2mcrys::::res://Scenes/menu/settings/audio_slider_settings.tscn
+WindowModeButton.gd::GDScript::-1::1738127907::0::1::::<>Control<>::
+window_mode_button.tscn::PackedScene::577045628519555846::1738129094::0::1::::<><>::uid://cjdjbc37soe3t::::res://Scenes/menu/settings/settings_display_button.tscn<>res://Scenes/menu/settings/WindowModeButton.gd
+::res://Scripts/::1738231847
+Animation.gd::GDScript::-1::1738057522::0::1::::<>CharacterBody2D<>::
+camera_holder.gd::GDScript::-1::1738231847::0::1::::<>Node2D<>::
+Chase.gd::GDScript::-1::1737716877::0::1::::<>EnemyState<>::
+Enemy.gd::GDScript::-1::1737720261::0::1::::Enemy<>CharacterBody2D<>::
+Health.gd::GDScript::-1::1737712175::0::1::::Health<>Node<>::
+HitBox.gd::GDScript::-1::1737712642::0::1::::Hitbox<>Area2D<>::
+menu.gd::GDScript::-1::1738231847::0::1::::<>Control<>::
+player.gd::GDScript::-1::1738231847::0::1::::Player<>RigidBody2D<>::
+skeleton.gd::GDScript::-1::1738231847::0::1::::<>CharacterBody2D<>::
+skeleton_enemy.tscn::PackedScene::7110866756351217100::1738060752::0::1::::<><>::res://Scripts/Enemy.gd<>res://Scripts/HitBox.gd<>uid://didtfom6oyinb::::res://Assets/Images/Skeleton enemy.png<>res://Scripts/States/state_machine.gd<>res://Scripts/States/EnemyWander.gd<>res://Scripts/Health.gd<>res://Scripts/States/EnemyIdle.gd<>res://Scripts/States/EnemyState.gd
+::res://Scripts/Classes/::1737550513
+Attack.gd::GDScript::-1::1737550513::0::1::::Attack<>RefCounted<>::
+::res://Scripts/States/::1737717280
+EnemyIdle.gd::GDScript::-1::1737716903::0::1::::EnemyIdle<>EnemyState<>::
+EnemyState.gd::GDScript::-1::1737713194::0::1::::EnemyState<>Node<>::
+EnemyWander.gd::GDScript::-1::1737717280::0::1::::<>EnemyState<>::
+State.gd::GDScript::-1::1737541728::0::1::::State<>Node<>::
+state_machine.gd::GDScript::-1::1737710848::0::1::::<>Node<>::

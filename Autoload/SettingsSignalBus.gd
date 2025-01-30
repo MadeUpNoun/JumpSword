@@ -11,7 +11,11 @@ signal on_sfx_sound_set(value: float)
 
 # Dict
 signal set_settings_dictionary(settings_dict : Dictionary)
+signal load_settings_data(settings_dict : Dictionary)
 
+func emit_load_settings_data(settings_dict : Dictionary):
+	load_settings_data.emit(settings_dict) 
+	
 
 func emit_set_settings_dictionary(settings_dict : Dictionary):
 	set_settings_dictionary.emit(settings_dict)

@@ -10,8 +10,14 @@ const WINDOW_MODE_ARRAY : Array[String] = [
 	
 ]
 
+
 func _ready():
 	add_window_mode_items()
+	load_data()
+	
+func load_data():
+	_on_window_mode_selected(SettingsDataContainer.get_window_mode_index())
+	option_button.select(SettingsDataContainer.get_window_mode_index())
 	
 func add_window_mode_items():
 	for window_mode in WINDOW_MODE_ARRAY:
