@@ -11,7 +11,7 @@ const SPEED = 10.0
 var possessed = false
 
 
-func _physics_process(delta: float) -> void:
+func _physics_process(_delta: float) -> void:
 	if possessed == false:
 		Arrow_turn_table.hide()
 		if $Area2D.has_overlapping_bodies():
