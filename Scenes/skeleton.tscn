@@ -3,7 +3,7 @@
 [ext_resource type="Script" path="res://Scripts/skeleton.gd" id="1_6jesq"]
 [ext_resource type="Texture2D" uid="uid://dmrq2nvajat3g" path="res://Assets/skeleton_Sheet.png" id="1_rj78j"]
 [ext_resource type="Texture2D" uid="uid://c1voc2ggmt5si" path="res://Assets/E.png" id="3_2hh6s"]
-[ext_resource type="Texture2D" uid="uid://c6r3u8wskgute" path="res://Assets/Arrow-Sheet.png" id="4_8g2kk"]
+[ext_resource type="Texture2D" uid="uid://bd4l8bfbh57ov" path="res://Assets/Arrow-Sheet.png" id="4_8g2kk"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_4vufj"]
 atlas = ExtResource("1_rj78j")
