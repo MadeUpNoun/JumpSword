@@ -4,7 +4,7 @@
 [ext_resource type="TileSet" uid="uid://0ayermjqhq5t" path="res://test_world.tres" id="1_r1y3l"]
 [ext_resource type="Texture2D" uid="uid://bcoko225jl74" path="res://Assets/icon.svg" id="2_24she"]
 [ext_resource type="PackedScene" uid="uid://kfwvnbxw7kch" path="res://Scenes/player.tscn" id="2_cyst2"]
-[ext_resource type="TileSet" uid="uid://bwai6u35nkhy2" path="res://background.tres" id="3_0o8me"]
+[ext_resource type="TileSet" uid="uid://bb611yha6w1y3" path="res://background.tres" id="3_0o8me"]
 [ext_resource type="PackedScene" uid="uid://emih5dcfdx6f" path="res://Scenes/skeleton.tscn" id="3_yexbl"]
 [ext_resource type="PackedScene" uid="uid://b7mb6gisock8b" path="res://Scenes/menu/pause_menu.tscn" id="6_ppi7y"]
 

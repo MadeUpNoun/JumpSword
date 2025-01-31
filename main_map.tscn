@@ -451,7 +451,6 @@ offset_right = -590.0
 offset_bottom = -434.0
 
 [node name="Node2D" type="Node2D" parent="CanvasLayer"]
-visible = false
 position = Vector2(-173.5, -1110.5)
 script = ExtResource("8_bbnfu")
 
