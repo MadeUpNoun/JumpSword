@@ -14,53 +14,55 @@ var skeleton_transform
 #move rigid bodys with forces
 #func _integrate_forces(state: PhysicsDirectBodyState2D) -> void:
 #
-
+var game_over = false
 
 
 
 #phys func that runs each frame
 func _physics_process(delta: float) -> void:
-	if possession == false:
-		show()
-		freeze = false
-		on_floor = $Area2D.has_overlapping_bodies()
+	if game_over == false:
+		if possession == false:
+			show()
+			freeze = false
+			on_floor = $Area2D.has_overlapping_bodies()
 
-		#controls left and right turning
-		if Input.is_action_pressed("Move_Left"):
-			turn_direction = clamp(turn_direction - 0.01,-0.5,0.5)
-		elif Input.is_action_pressed("Move_Right"):
-			turn_direction = clamp(turn_direction + 0.01,-0.5,0.5)
-		else:
-			if turn_direction > 0:
-				turn_direction -= 0.1
-			elif turn_direction < 0 :
-				turn_direction += 0.1
-		angular_velocity += turn_direction
-		
-		
-		
-		Arrow_turn_table.look_at(get_global_mouse_position())
-		if leap_cooldown == false:
-			if Input.is_action_pressed("Leap") and on_floor:
-				Arrow_turn_table.show()
-				leap_charge()
-			elif Input.is_action_just_released("Leap"):
-				Arrow_turn_table.hide()
-				apply_central_force(Vector2(0.0,-1.5).rotated(
-					Arrow_turn_table.global_rotation + (PI/2))
-				 * 50  * charge)
-				charge = 0.0
-				$Leap_cooldown.start()
-				leap_cooldown = true
+			#controls left and right turning
+			if Input.is_action_pressed("Move_Left"):
+				turn_direction = clamp(turn_direction - 0.01,-0.5,0.5)
+			elif Input.is_action_pressed("Move_Right"):
+				turn_direction = clamp(turn_direction + 0.01,-0.5,0.5)
 			else:
-				Arrow_turn_table.hide()
-				charge = 0.0
-				
-	if possession == true:
+				if turn_direction > 0:
+					turn_direction -= 0.1
+				elif turn_direction < 0 :
+					turn_direction += 0.1
+			angular_velocity += turn_direction
+			
+			
+			
+			Arrow_turn_table.look_at(get_global_mouse_position())
+			if leap_cooldown == false:
+				if Input.is_action_pressed("Leap") and on_floor:
+					Arrow_turn_table.show()
+					leap_charge()
+				elif Input.is_action_just_released("Leap"):
+					Arrow_turn_table.hide()
+					apply_central_force(Vector2(0.0,-1.5).rotated(
+						Arrow_turn_table.global_rotation + (PI/2))
+					 * 50  * charge)
+					charge = 0.0
+					$Leap_cooldown.start()
+					leap_cooldown = true
+				else:
+					Arrow_turn_table.hide()
+					charge = 0.0
+					
+		if possession == true:
+			freeze = true
+			global_transform = skeleton_transform
+	if game_over == true:
 		freeze = true
-		global_transform = skeleton_transform
-
-
+		print("game_over")
 
 var Max_charge = 100.0
 var charge = 0.0

@@ -1,15 +1,12 @@
-[gd_resource type="TileSet" load_steps=3 format=3 uid="uid://bwai6u35nkhy2"]
+[gd_resource type="TileSet" load_steps=3 format=3 uid="uid://bb611yha6w1y3"]
 
 [ext_resource type="Texture2D" uid="uid://cfsiq0blnanmy" path="res://Aspite files/background.png" id="1_7jdgc"]
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_m5c30"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qnsak"]
 texture = ExtResource("1_7jdgc")
 texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
-1:0/0 = 0
-0:1/0 = 0
-1:1/0 = 0
 
 [resource]
 tile_size = Vector2i(32, 32)
-sources/0 = SubResource("TileSetAtlasSource_m5c30")
+sources/0 = SubResource("TileSetAtlasSource_qnsak")
