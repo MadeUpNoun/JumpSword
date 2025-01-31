@@ -1,4 +1,6 @@
 TileMapLayer
+AnimationTree
+AnimationPlayer
 Button
 TextEdit
 Control
@@ -10,5 +12,3 @@ Sprite2D
 ParallaxBackground
 ParallaxLayer
 Parallax2D
-CollisionPolygon2D
-StaticBody2D

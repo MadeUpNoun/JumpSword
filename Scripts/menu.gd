@@ -2,7 +2,12 @@ extends Control
 
 @onready var v_box_container: VBoxContainer = $VBoxContainer
 @onready var settings_menu: SettingsMenu = $settings_menu
+@onready var anim = $AnimationPlayer
 
+
+func _physics_process(_delta: float) -> void:
+	anim.play("falling")
+	await anim.animation_finished
 func _on_play_pressed():
 	# Change To Game Scene When Created
 		get_tree().change_scene_to_file("res://main_map.tscn")
