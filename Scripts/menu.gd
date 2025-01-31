@@ -3,7 +3,7 @@ extends Control
 @onready var v_box_container: VBoxContainer = $VBoxContainer
 @onready var settings_menu: SettingsMenu = $settings_menu
 @onready var anim = $AnimationPlayer
-
+@onready var logo = $Logo
 
 func _physics_process(_delta: float) -> void:
 	anim.play("falling")
@@ -21,10 +21,12 @@ func _on_settings_pressed() -> void:
 	v_box_container.visible = false
 	settings_menu.visible = true
 	settings_menu.set_process(true)
+	logo.hide()
 
 
 func _on_settings_menu_exit_settings_menu() -> void:
 	v_box_container.visible = true
 	settings_menu.visible = false
+	logo.show()
 	
  
