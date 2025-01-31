@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=4 uid="uid://cnj3l34spu7pr"]
+[gd_scene load_steps=17 format=4 uid="uid://cnj3l34spu7pr"]
 
 [ext_resource type="Script" path="res://Scripts/menu.gd" id="1_vggcf"]
 [ext_resource type="Texture2D" uid="uid://dxvv5msciekct" path="res://Assets/Images/MainMenuPlaceHolder.jpg" id="2_ef1em"]
@@ -9,6 +9,7 @@
 [ext_resource type="Texture2D" uid="uid://d1fytws4mh3wg" path="res://Assets/Player_Sword.png" id="7_n6xa4"]
 [ext_resource type="TileSet" uid="uid://bb611yha6w1y3" path="res://background.tres" id="8_c3yer"]
 [ext_resource type="Texture2D" uid="uid://cq812idyhlkgk" path="res://Aspite files/logo.png" id="9_c14cn"]
+[ext_resource type="Texture2D" uid="uid://bsrpd2dipxswt" path="res://Aspite files/credit.png" id="10_jmm03"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_03iwn"]
 texture = ExtResource("2_ef1em")
@@ -27,6 +28,33 @@ animations = [{
 "name": &"default",
 "speed": 5.0
 }]
+
+[sub_resource type="Animation" id="Animation_uhdca"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1280, -63)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("AnimatedSprite2D:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [6.28319]
+}
 
 [sub_resource type="Animation" id="Animation_gxf50"]
 resource_name = "falling"
@@ -54,33 +82,6 @@ tracks/1/keys = {
 "transitions": PackedFloat32Array(1, 1),
 "update": 0,
 "values": [6.28319, -6.28319]
-}
-
-[sub_resource type="Animation" id="Animation_uhdca"]
-length = 0.001
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("AnimatedSprite2D:position")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Vector2(1280, -63)]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath("AnimatedSprite2D:rotation")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [6.28319]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_boda5"]
@@ -188,6 +189,11 @@ tile_set = ExtResource("8_c3yer")
 position = Vector2(466, 224)
 scale = Vector2(4, 4)
 texture = ExtResource("9_c14cn")
+
+[node name="Credit" type="Sprite2D" parent="."]
+position = Vector2(439, 924)
+scale = Vector2(2, 2)
+texture = ExtResource("10_jmm03")
 
 [connection signal="pressed" from="VBoxContainer/Play" to="." method="_on_play_pressed"]
 [connection signal="pressed" from="VBoxContainer/Settings" to="." method="_on_settings_pressed"]

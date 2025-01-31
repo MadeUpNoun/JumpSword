@@ -9,4 +9,3 @@ res://Scenes/menu/settings/settings_menu.tscn
 res://Scenes/skeleton.tscn
 res://Autoload/background_music.tscn
 res://main_map.tscn
-res://Scripts/menu.gd
